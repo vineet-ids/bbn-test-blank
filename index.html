@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <aside>
+      <div class="top">
+        <div class="logo">
+          <img src="./Images/BBNLOGO.jpg">
+          <h2 class="text-muted">BBN</h2> 
+        </div>
+        <div class="close" id="close-btn">
+          <span class="material-icons-sharp">close</span>
+        </div>
+      </div>
+      <div class="sidebar">
+        <a href="#">
+          <span class="material-icons-sharp">grid_view</span>
+          <h3>Dashboard</h3>
+        </a>
+        <a href="#" class="active">
+          <span class="material-icons-sharp">school</span>
+          <h3>Colleges</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">message</span>
+          <h3>Messages</h3>
+          <span class="message-count">26</span>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">insights</span>
+          <h3>Nodesetup</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">summarize</span>
+          <h3>Reports</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">settings</span>
+          <h3>settings</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">support_agent</span>
+          <h3>support</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">logout</span>
+          <h3>Logout</h3>
+        </a>
+      </div>
+    </aside>
+
+    <main>
+      <h1>Dashboard</h1>
+      <div class="date">
+        <input type="date">
+      </div>
+      <div class="insights">
+        <div class="colleges">
+          <span class="material-icons-sharp">analytics</span>
+          <div class="middle">
+            <div class="left">
+              <h3>Registered Colleges</h3>
+              <h1>56</h1>
+            </div>
+            <div class="progress">
+              <svg>
+                <circle cx="38" cy="38" r="36"></circle>
+              </svg>
+              <div class="number">
+                <p>45%</p>
+              </div>
+            </div>
+          </div>
+          <small class="text-muted">Last 24 Hours</small>
+        </div>
+        <!---------------------End of Colleges Registered-->
+
+        <div class="MOUSigned">
+          <span class="material-icons-sharp">handshake</span>
+          <div class="middle">
+            <div class="left">
+              <h3>MOUSigned</h3>
+              <h1>58</h1>
+            </div>
+            <div class="progress">
+              <svg>
+                <circle cx="38" cy="38" r="36"></circle>
+              </svg>
+              <div class="number">
+                <p>45%</p>
+              </div>
+            </div>
+          </div>
+          <small class="text-muted">Last 24 Hours</small>
+        </div>
+ <!---------------------End of MOU-->
+
+ <div class="NODEsetup">
+  <span class="material-icons-sharp">install_desktop</span>
+  <div class="middle">
+    <div class="left">
+      <h3>Nodesetuped</h3>
+      <h1>50</h1>
+    </div>
+    <div class="progress">
+      <svg>
+        <circle cx="38" cy="38" r="36"></circle>
+      </svg>
+      <div class="number">
+        <p>85%</p>
+      </div>
+    </div>
+  </div>
+  <small class="text-muted">Last 24 Hours</small>
+</div>
+<!---------------------End of Node setup-->
+
+      </div>
+
+      <!---------------------End of Insights-->
+<div class="recent-users">
+  <h2>Recent users</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>University</th>
+        <th>City</th>
+        <th>username</th>
+        <th>status</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <td>IIT</td>
+      <td>Bangalore</td>
+      <td>mahesh</td>
+      <td class="warning">Pending</td>
+      <td class="primary">Details</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <td>BBN</td>
+      <td>Hyderabad</td>
+      <td>Pawan</td>
+      <td class="success">Success</td>
+      <td class="primary">Details</a></td>
+      </tr>
+    </tbody>
+    <tbody>
+      <td>Indian Institute</td>
+      <td>Culcutta</td>
+      <td>Kishore</td>
+      <td class="warning">Pending</td>
+      <td class="primary"> <a href="#">Details</a></td>
+      </tr>
+    </tbody>
+    </table>
+    <a href="#">Show All</a>
+    
+</div>
+    </main>
+<div class="right">
+  <div class="top">
+    <button id="menu-btn">
+      <span class="material-icons-sharp">menu</span>
+    </button>
+    <div class="theme-toggler">
+      <span class="material-icons-sharp">light_mode</span>
+      <span class="material-icons-sharp">dark_mode</span>
+    </div>
+    <div class="profile">
+      <div class="info">
+        <p>Hey,<b>Ravi</b></p>
+        <small class="text-muted">Admin</small>
+      </div> 
+      <div class="profile">
+        <img src="./Images/profile1.jpg" width="60" height="60">
+      </div>          
+      </div>
+    </div>
+    <div class="recent-Updates">
+      <h2>Recent Updates</h2>
+      <div class="update">
+        <div class="profile">
+          <img src="./Images/profile2.jpg" alt="" width="60" height="60">
+        </div>
+        <div class="message">
+          <p><b>Shan</b>Node updated IIT Bangalore </p>
+          <small class="text-muted">2 Minutes Ago</small>
+        </div>
+      </div>
+      <div class="update">
+        <div class="profile">
+          <img src="./Images/profile3.jpg" alt=""width="60" height="60">
+        </div>
+        <div class="message">
+          <p><b>Shan</b>Node updated IIT Bangalore </p>
+          <small class="text-muted">2 Minutes Ago</small>
+        </div>
+      </div>
+      <div class="update">
+        <div class="profile">
+          <img src="./Images/profile4.jpg" alt=""width="60" height="60">
+        </div>
+        <div class="message">
+          <p><b>Shan</b>Node updated IIT Bangalore </p>
+          <small class="text-muted">2 Minutes Ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+  
+</body>
+</html>
